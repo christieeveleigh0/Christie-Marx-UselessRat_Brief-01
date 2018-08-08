@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	margin-top: 0px;
+	padding: 0;
+	background-color: whitesmoke;
+	height: auto;
+}
+
+/* Image Styles */
+
+.rattus {
+	float: left;
+	margin-left: -20px;
+	margin-top: 200px;
+	z-index: 10;
+}
+
+.halo {
+	width: 6%;
+	margin-top: 240px;
+	margin-left: -280px;
+	border-radius: 40%;
+}
+
+.halo-glowing {
+animation: glow 20s ease-out alternate;
+}
+
+/* Animation */
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px 2px #f5f7b4;
+
+  }
+  70%{
+    box-shadow: 0 0 50px 20px #f5f7b4;
+  }
+  100% {
+  	box-shadow: 0 0 0px 1px #f5f7b4;
+
+  }
+
+}
